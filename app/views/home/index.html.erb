@@ -1,0 +1,1028 @@
+
+ <!-- END PRELOADER -->
+<div id="live-chat">
+		
+		<header class="clearfix">
+			<h4>라이브 홍보 - 눌러줘요</h4>
+		</header>
+
+		<div class="chat">
+      
+			<div class="chat-history">
+			   <div id="chat_list"></div><hr>
+			            <h3>History</h3>   
+                        <% @posts.reverse.each do |p| %>
+                            <p><b><%= p.content %></b><br><%= p.created_at %></p><hr>
+                        <% end %>
+			  </div>
+			  <textarea id="chat_content" style="width: 100%;" rows="4" cols="50" placeholder="내용을 입력해주세요." required></textarea>
+			  <div style="width:50px; height:100%; border-style:soild; border-size:5px; border-radius:5px; border-color:skyblue; background:skyblue; text-align:center;"><a style="text-decoration:none; font-size:15px;" id="submit_msg">Send</a></div>
+  </div>
+</div>			
+	
+
+ <!-- =========================
+     START ABOUT US SECTION
+============================== -->
+    <section class="header parallax home-parallax page" id="HOME">
+        <h2></h2>
+        <div class="section_overlay">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="">
+                            <img src="<%= asset_path 'stl.png' %>" alt="Logo">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- NAV -->
+                            <li><a href="#HOME">HOME</a> </li>
+                            <li><a href="#ABOUT">ABOUT </a> </li>
+                            <li><a href="#FEATURES">Line Up</a></li>
+                            <li><a href="#CONTACT">Live 지도 </a> </li>
+                            <li><a href="#SCREENS">주점</a> </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container- -->
+            </nav>
+
+            <div class="container home-container">
+                
+                <div class="row row_cut">
+                        <div class="home_text" style="text-align:center">
+                            <!-- TITLE AND DESC -->
+                            <!-- BUTTON -->
+                               <!--   <a class="tuor btn wow fadeInRight" href="#ABOUT" style="font-size:50px"><b>아래로 고고~ </b></a>-->
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END HEADER SECTION -->
+
+
+
+
+ <!-- =========================
+     START ABOUT US SECTION
+============================== -->
+
+
+    <section class="about page" id="ABOUT">
+        <div class="container">
+            <div class="row row_cut">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- ABOUT US SECTION TITLE-->
+                    <div class="section_title" style="background:rgba(255, 255, 255, 1); text-align:center; border-style: solid; border-width: 5px; border-radius:15px; padding-top:0px; margin-top:90px; padding-bottom:25px; border-color:#F34D44">
+                        <h2><b>서울과학기술대학교 2016 <span style="color:#F34D44">어의 대동제</span></b></h2>
+                        <p>이번 대동제 컨셉은 바로👉<b style="color:#F34D44"> '과! 기! 대! 공! 원!'</b> 👈<br>
+                        '과기대공원' 이라는 컨셉에 맞춰 동행은 🙆이벤트와 놀이기구🙆 를 준비했어요 !<br>
+                        많이 많이 참여해주실거죠~?~? 기대합니다~~~😉<br>
+                        동행이 학우여러분들의 기대를 충족시키기 위해 정~말 열심히 준비했으니<br>
+                        이제 즐길 준비만 해주신다면 넘~나 좋은것!<br>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="inner_about_area">
+            <div class="container">
+                    <div class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s"  style="background:rgba(255, 255, 255, 1); text-align:center; border-style: solid; border-width: 5px; border-radius:15px; border-color:#F34D44">
+                        <!-- TITLE -->
+                        <div class="inner_about_title" style="margin-top:30px; padding-bottom:0px">
+                            <h2>오직 <span style="color:#F34D44">서울과기대</span>에서만!!<br><span style="color:#A6251E">놀이기구</span> 5.18(수)~5.19(목)</h2>
+                        </div>
+                        <hr style="border-top:1px solid #F34D44">
+                        <div class="inner_about_desc">
+                          <div class="row row_cut">
+                            <div class="col-md-6 col-xs-6">
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s" style="padding-left:0px" id=mo1>
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">①젤리백</h3> </a>
+                                <p style="color:#DC5433">시간: 12~14시, 16~18시<br>
+                                    장소: 수연관옆<br>
+                                    비용: 1회당 <b style="color:#A6251E">1,000원</b></p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1.5s" style="padding-left:0px" id=mo2>
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">②대형슬라이드</h3></a>
+                                <p style="color:#DC5433">시간: 12~14시, 16~18시<br>
+                                    장소: 붕어방 잔디밭<br>
+                                    비용: 1회당 <b style="color:#A6251E">1,000원</b></p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s" style="padding-left:0px" id=mo4>
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">④방방</h3></a>
+                                <p style="color:#DC5433">시간: 12~14시, 16~18시<br>
+                                    장소: 1학생회관 잔디밭<br>
+                                    비용: <b style="color:#A6251E">무료</b></p>
+                            </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-xs-6">
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s" style="padding-left:0px" id=mo3>
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">③로데오</h3></a>
+                                <p style="color:#DC5433">시간: 12~14시, 16~18시<br>
+                                    장소: 1학생회관 잔디밭<br>
+                                    비용: 1회당 <b style="color:#A6251E">1,000원</b></p>
+                            </div>
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1.5s" style="padding-left:0px" >
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">③스파이더맨</h3></a>
+                                <p style="color:#DC5433">시간: 12~14시, 16~18시<br>
+                                    장소: 1학생회관 잔디밭<br>
+                                    비용: <b style="color:#A6251E">무료</b></p>
+                            </div>
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s" style="padding-left:0px" id="mo5">
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">⑤오락기</h3></a>
+                                <p style="color:#DC5433">시간: 12~14시, 16~18시<br>
+                                    장소: 1학생회관 벽화앞<br>
+                                    비용: 1회당 <b style="color:#A6251E">100원</b></p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="inner_about_area" style="margin-bottom:30px;">
+            <div class="container">
+                    <div class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s"  style="background:rgba(255, 255, 255, 1); text-align:center; border-style: solid; border-width: 5px; border-radius:15px; border-color:#F34D44">
+                        <!-- TITLE -->
+                        <div class="inner_about_title" style="margin-top:30px; padding-bottom:0px">
+                            <h2>오직 <span style="color:#F34D44">서울과기대</span>에서만!!<br><span style="color:#A6251E">이벤트</span> 5.18(수)~5.20(금)</h2>
+                        </div>
+                        <hr style="border-top:1px solid #F34D44">
+                        <div class="inner_about_desc">
+                          <div class="row row_cut">
+                            <div class="col-md-6 col-xs-6">
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s" style="padding-left:0px" id="mo9">
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">⑨퍼펙트센스-1. 미각</h3></a>
+                                <p style="color:#A6251E; font-size:15px;"><b>
+                                    예선 - 과자 4가지 섞인거 맞추기 (보기 10개 제공)<br>
+                                    본선 - 음료 4가지 섞인거 맞추기 (5人) 포스트잇에 적어서 제출</b></p>
+                                <p style="color:#DC5433">시간: 5.18(수) 13~14시<br>
+                                    장소: 다산관 앞 잔디 (공대 해오름제 장소)<br>
+                                    혜택: 마당사업 이용원 5人 (2人 기준 먹거리 이용권, 놀이기구, 사진)</p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1.5s" style="padding-left:0px" id="mo10">
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">⑩퍼펙트센스-2. 청각</h3></a>
+                                <p style="color:#A6251E; font-size:15px;"><b>
+                                    방송실에서 노래 연속 2회 틀기 (4가지 노래 믹스)<br>
+                                    선착순 문자메세지로 4가지 노래의 제목, 가수 보내기</b></p>
+                                <p style="color:#DC5433">시간: 5.18(수) 18시<br>
+                                    혜택: 마당사업 이용원 3人 (2人 기준 먹거리 이용권, 놀이기구, 사진)</p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s" style="padding-left:0px">
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <h3 style="color:#F34D44">퍼펙트센스-3. 오감-귀신의집 (마감)</h3>
+                                <p style="color:#A6251E; font-size:15px;"><b>
+                                    학교 관련 귀신이야기, 단서 찾기 or 미션 수행하기</b></p>
+                                <p style="color:#DC5433">시간: 5.18(수) 21시~23시<br>
+                                    장소: 귀신의집 코스<br>
+                                    참가비 2,000원 -> 선착순 24팀 (2~4人 구성) 코스 10분, 5분 단위로 출발</p>
+                            </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-xs-6">
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s" style="padding-left:0px" id="mo11">
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">⑪만능로봇</h3></a>
+                                <p style="color:#A6251E; font-size:15px;"><b>
+                                    축구 패널티킥, 농구 자유투, 풍선 터트리기</b></p>
+                                <p style="color:#DC5433">시간: 5.20(금) 13시~14시<br>
+                                    장소: 운동장<br>
+                                    혜택: 주점 이용권 3人 (2人 기준 사진)</p>
+                            </div><br>
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1.5s" style="padding-left:0px" id="mo12">
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <a href = "#map">
+                                <h3 style="color:#F34D44">⑫알파고</h3></a>
+                                <p style="color:#A6251E; font-size:15px;"><b>
+                                    로봇과 오목대결~</b></p>
+                                <p style="color:#DC5433">시간: 5.20(금) 17시~18시<br>
+                                    장소: 다산관 앞 잔디 (공대 해오름제 장소)<br>
+                                    혜택: 1회 승리 시 주점 이용권 1만원 / 2회 연속 승리 시 강력한 혜택</p>
+                            </div>
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s" style="padding-left:0px">
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION -->
+                                <h3 style="color:#F34D44">인형탈과 함께 폴라로이드를</h3>
+                                <p style="color:#DC5433">시간: 12~14시, 16~18시<br>
+                                    장소: 1학 주변, 붕어방 주변, 마당사업 주변<br>
+                                    비용: 1컷당 <b style="color:#A6251E">1,000원</b></p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+                            </div>
+                          </div>
+                                <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s" style="padding-left:0px" id="mo6">
+                                <!-- ICON -->
+                                <!-- HEADING DESCRIPTION --><br><hr style="border-top:1px solid #F34D44"><br>
+                                <h3 style="color:#F34D44; font-size:30px;">WITH</h3>
+                                <h3 style="color:#DC5433; font-size:40px;">향학로에서 펼쳐지는</h3>
+                                <h3 style="color:#A6251E; font-size:50px; padding-bottom:30px;">마! 당! 사! 업!</h3>
+                              </div>
+                              <!-- END SINGLE DESC -->
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="video_area">
+            <div class="container">
+                <div class="row row_cut">
+                  <div class="col-md-10 col-md-offset-1" style="margin-top:-100px">
+                    <!-- FEATURES SECTION TITLE -->
+                    <div class="section_title wow fadeIn" data-wow-duration="1s">
+                        <h2 style="font-size:40px;"><b>대동제 티저</b></h2>
+                    </div>
+                    <!-- END FEATURES SECTION TITLE -->
+                </div>
+                    <div class="wow fadeInRightBig">
+                         <!-- VIDEO -->
+                        <div class="video">
+                        <iframe style="facebook" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fseoultech.GSA%2Fvideos%2F966181553477139%2F&width=360&show_text=false&height=202&appId" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Us -->
+
+
+<!-- =========================
+     START FEATURES
+============================== -->
+    <section id="FEATURES" class="features page">
+      <div class="inner_about_area">
+            <div class="container">
+                <div class="row row_cut">
+                  <!-- TITLE -->
+                        <div class="inner_about_title">
+                            <h2 style="color:white;">축제 LineUp<br>5.19(목)</h2>
+                        </div>
+                    <div class="col-md-6">
+                        <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="margin-bottom:10px;">
+                        <!-- PHONE -->
+                            <img src="<%= asset_path 'LU1.jpg' %>" style="height:80%; width:80%">
+                        </div>
+                    </div>
+                    <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="inner_about_desc">
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s">
+                                <!-- HEADING DESCRIPTION -->
+                                <h3 style="color:white">데이브레이크</h3>
+                                <p style="color:white">2016.05.19(THU), 21:00</p>
+                                <iframe class="youtube" src="https://www.youtube.com/embed/h9sI397ObUk" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <!-- END SINGLE DESC -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row row_cut">
+                    <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="inner_about_desc">
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s" style="text-align:right; padding-right:80px; padding-left:0px">
+                                <!-- HEADING DESCRIPTION -->
+                                <h3 style="color:white">크러쉬</h3>
+                                <p style="color:white">2016.05.19(THU), 21:50</p>
+                                <iframe class="youtube" src="https://www.youtube.com/embed/TcytstV1_XE" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <!-- END SINGLE DESC -->
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="margin-bottom:10px;">
+                        <!-- PHONE -->
+                            <img src="<%= asset_path 'LU2.jpg' %>" style="height:80%; width:80%">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row row_cut">
+                  <!-- TITLE -->
+                        <div class="inner_about_title">
+                            <h2 style="color:white;">축제 LineUp<br>5.20(금)</h2>
+                        </div>
+                    <div class="col-md-6">
+                        <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="margin-bottom:10px;">
+                        <!-- PHONE -->
+                            <img src="<%= asset_path 'LU3.jpg' %>" style="height:80%; width:80%">
+                        </div>
+                    </div>
+                    <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="inner_about_desc">
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s">
+                                <!-- HEADING DESCRIPTION -->
+                                <h3 style="color:white">어반자카파</h3>
+                                <p style="color:white">2016.05.20(FRI), 20:40</p>
+                                <iframe class="youtube" src="https://www.youtube.com/embed/VapvGNv8lcw" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <!-- END SINGLE DESC -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row row_cut">
+                    <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="inner_about_desc">
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s" style="text-align:right; padding-right:80px; padding-left:0px">
+                                <!-- HEADING DESCRIPTION -->
+                                <h3 style="color:white">레드벨벳</h3>
+                                <p style="color:white">2016.05.20(FRI), 21:30</p>
+                                <iframe class="youtube" src="https://www.youtube.com/embed/XGdbaEDVWp0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <!-- END SINGLE DESC -->
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="margin-bottom:10px;">
+                        <!-- PHONE -->
+                            <img src="<%= asset_path 'LU4.jpg' %>" style="height:80%; width:80%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FEATURES SECTION -->
+    
+        
+    <!-- =========================
+     START CONTCT FORM AREA
+============================== -->
+    <section class="contact page" id="CONTACT">
+        
+        <div class="container">
+            <div class="row row_cut" id="no1">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- FEATURES SECTION TITLE -->
+                    <div class="section_title wow fadeIn" data-wow-duration="1s">
+                        <h2><b>지도</b></h2>
+                        <p>주점이름을 클릭해보세요.</p>
+                    </div>
+                    <!-- END FEATURES SECTION TITLE -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+          <div class="row row_cut" id="no1">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- FEATURES SECTION TITLE -->
+                    <div class="section_title wow fadeIn" data-wow-duration="1s" style="padding-top:0px; padding-bottom:-50px">
+                      
+                      <p>
+                          <button class="do_it" data-label="향학로로" onclick="setCenter()">향학로로</button>
+                          <button class="do_it" data-label="과기대 운동장으로" onclick="panTo()">과기대 운동장으로</button>
+                      </p>
+                      
+                    </div>
+                    </div>
+                  
+
+          </div>
+        </div>
+           
+           
+          <div class="row row_cut" id="no1">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- FEATURES SECTION TITLE -->
+                    <div class="section_title wow fadeIn" data-wow-duration="1s">
+                        <div id="map"></div>
+                    </div>
+                      <!-- END FEATURES SECTION TITLE -->
+                </div>
+          </div>
+    </section>
+    <!-- END DOWNLOAD -->
+    
+<!-- =========================
+     Start APPS SCREEN SECTION
+============================== -->
+    <section class="apps_screen page" id="SCREENS">
+        <div class="container">
+            <div class="row row_cut" id="no1">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- FEATURES SECTION TITLE -->
+                    <div class="section_title wow fadeIn" data-wow-duration="1s">
+                        <h2 style="font-size:40px;"><b>주점 5.19(목)~5.20(금)</b></h2>
+                        <p>사진을 클릭하시면 상세한 정보를 볼 수 있어요!</p>
+                    </div>
+                    <!-- END FEATURES SECTION TITLE -->
+                </div>
+            </div>
+        </div>
+
+        <div class="feature_inner">
+            <div class="container">
+                <div class="row row_cut" id="no2">
+                  <div class="row row_cut">
+                      <div class="col-md-10 col-md-offset-1">
+                          <!-- FEATURES SECTION TITLE -->
+                          <div class="section_title wow fadeIn" data-wow-duration="1s" style="padding-top:0px">
+                              <h2><b>기술경영융합대학</b></h2>
+                          </div>
+                          <!-- END FEATURES SECTION TITLE -->
+                      </div>
+                  </div>
+                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
+                        <!-- FEATURE -->
+
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >MSDE<br><span style="color:red">원샷해적</span></a><span>/</span></h3>
+                        </div>
+
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >ITM<br><span style="color:red">꽃보다주점</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >산업공학과<br><span style="color:red">웰컴투산공주점</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_iphone">
+                            <!-- FEATURE PHONE IMAGE -->
+                            <a href="home/gisol"><img class="wow bounceIn" data-wow-duration="1s" src="<%= asset_path 'TM.jpg' %>" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >경영<br><span>/</span><span style="color:blue">어릔이대공원</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >GTM<br><span>/</span><span style="color:blue">경성타임즈</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                        
+                    </div>
+                </div>
+                <hr style="border-top:1px solid orange">
+                
+                <div class="row row_cut" id="no3">
+                  <div class="row row_cut">
+                      <div class="col-md-10 col-md-offset-1">
+                          <!-- FEATURES SECTION TITLE -->
+                          <div class="section_title wow fadeIn" data-wow-duration="1s" style="padding-top:0px">
+                              <h2><b>정보통신대학</b></h2>
+                          </div>
+                          <!-- END FEATURES SECTION TITLE -->
+                      </div>
+                  </div>
+                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
+                        <!-- FEATURE -->
+
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >전기정보공학과<br><span style="color:red">전정나이트</span></a><span>/</span></h3>
+                        </div>
+
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >전자IT공학과<br><span style="color:red">꼬마들이 술 타요</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_iphone">
+                            <!-- FEATURE PHONE IMAGE -->
+                            <a href="home/jeongbo">
+                            <img class="wow bounceIn" data-wow-duration="1s" src="<%= asset_path 'JT.jpg' %>" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+                        
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >컴퓨터공학과<br><span>/</span><span style="color:blue">공능 콤-퓨타</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                    </div>
+                </div>
+                <hr style="border-top:1px solid orange">
+
+                <div class="row row_cut" id="no4">
+                  <div class="row row_cut">
+                      <div class="col-md-10 col-md-offset-1">
+                          <!-- FEATURES SECTION TITLE -->
+                          <div class="section_title wow fadeIn" data-wow-duration="1s" style="padding-top:0px">
+                              <h2><b>에너지바이오대학</b></h2>
+                          </div>
+                          <!-- END FEATURES SECTION TITLE -->
+                      </div>
+                  </div>
+                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
+                        <!-- FEATURE -->
+
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >정밀화학과<br><span style="color:red">???</span></a><span>/</span></h3>
+                            <h3><a href="#">정밀화학과<br><span style="color:red">동물의 왕국</span></a><span>/</span></h3>
+                        </div>
+
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >화공생명공학과<br><span style="color:red">술기로운 생활</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >환경공학과<br><span style="color:red">어른이대공원</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_iphone">
+                            <!-- FEATURE PHONE IMAGE -->
+                            <a href="home/energybio">
+                            <img class="wow bounceIn" data-wow-duration="1s" src="<%= asset_path 'EB.jpg' %>" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >식품공학과<br><span>/</span><span style="color:blue">식공사우나</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >스포츠과학과<br><span>/</span><span style="color:blue">닭치고스과</span> </a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                        
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >안경광학과<br><span>/</span><span style="color:blue">가면무도회</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                        
+                    </div>
+                </div>
+                <hr style="border-top:1px solid orange">
+                
+                <div class="row row_cut" id="no5">
+                  <div class="row row_cut">
+                      <div class="col-md-10 col-md-offset-1">
+                          <!-- FEATURES SECTION TITLE -->
+                          <div class="section_title wow fadeIn" data-wow-duration="1s" style="padding-top:0px">
+                              <h2><b>조형대학</b></h2>
+                          </div>
+                          <!-- END FEATURES SECTION TITLE -->
+                      </div>
+                  </div>
+                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
+                        <!-- FEATURE -->
+
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >디자인학과<br><span style="color:red">디학주점</span></a><span>/</span></h3>
+                        </div>
+
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >도자문화학과<br><span style="color:red">도:틸다</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_iphone">
+                            <!-- FEATURE PHONE IMAGE -->
+                            <a href="home/design">
+                            <img class="wow bounceIn" data-wow-duration="1s" src="<%= asset_path 'JH.jpg' %>" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >금속공예학과<br><span>/</span><span style="color:blue">섹시할로윈</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >조형예술학과<br><span>/</span><span style="color:blue">조예디스코</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                        
+                    </div>
+                </div>
+                <hr style="border-top:1px solid orange">
+                
+                <div class="row row_cut" id="no6">
+                  <div class="row row_cut">
+                      <div class="col-md-10 col-md-offset-1">
+                          <!-- FEATURES SECTION TITLE -->
+                          <div class="section_title wow fadeIn" data-wow-duration="1s" style="padding-top:0px">
+                              <h2><b>인문사회대학</b></h2>
+                          </div>
+                          <!-- END FEATURES SECTION TITLE -->
+                      </div>
+                  </div>
+                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
+                        <!-- FEATURE -->
+
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >행정학과<br><span style="color:red">코카꽐라</span></a><span>/</span></h3>
+                        </div>
+
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >영어영문학과<br><span style="color:red">???</span></a><span>/</span></h3>
+                            <h3><a href="#">영어영문학과<br><span style="color:red">컨 셉</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_iphone">
+                            <!-- FEATURE PHONE IMAGE -->
+                            <a href="home/inmon">
+                            <img class="wow bounceIn" data-wow-duration="1s" src="<%= asset_path 'IS.jpg' %>" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >문예창작학과<br><span>/</span><span style="color:blue">칵테일 실험실</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+                    </div>
+                </div>
+                <hr style="border-top:1px solid orange">
+                
+                <div class="row row_cut" id="no7">
+                  <div class="row row_cut">
+                      <div class="col-md-10 col-md-offset-1">
+                          <!-- FEATURES SECTION TITLE -->
+                          <div class="section_title wow fadeIn" data-wow-duration="1s" style="padding-top:0px">
+                              <h2><b>공과대학</b></h2>
+                          </div>
+                          <!-- END FEATURES SECTION TITLE -->
+                      </div>
+                  </div>
+                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
+                        <!-- FEATURE -->
+
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >기계시스템디자인공학과<br><span style="color:red">Summer Gang Vacance</span></a><span>/</span></h3>
+                        </div>
+
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >기계자동차공학과<br><span style="color:red">응답하라 2016</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >안전공학과<br><span style="color:red">미니언주</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                        
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >신소재공학과<br><span style="color:red">대추나무 이슬걸렸네</span></a><span>/</span></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_iphone">
+                            <!-- FEATURE PHONE IMAGE -->
+                            <a href="home/gongdae">
+                            <img class="wow bounceIn" data-wow-duration="1s" src="<%= asset_path 'GD.jpg' %>" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >건설시스템공학과<br><span>/</span><span style="color:blue">???</span></a></h3>
+                            <h3><a href="#">건설시스템공학과<br><span>/</span><span style="color:blue">컨 셉</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >건축공학과<br><span>/</span><span style="color:blue">GS25시 공릉탕</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                        
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><a >건축학과<br><span>/</span><span style="color:blue">???</span></a></h3>
+                            <h3><a href="#">건축학과<br><span>/</span><span style="color:blue">컨 셉</span></a></h3>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                        
+                    </div>
+                </div>
+                <hr style="border-top:1px solid orange">
+                
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+    <!-- ENS APPS SCREEN -->
+
+
+<!-- =========================
+     FOOTER 
+============================== -->
+
+    <section class="copyright">
+        <h2></h2>
+        <div class="container">
+            <div class="row row_cut">
+                <div class="col-md-6">
+                    <div class="copy_right_text" style="width:100%">
+                    <!-- COPYRIGHT TEXT -->
+                        <p>Copyright &copy; 멋쟁이사자처럼 서울과학기술대학교<br> With 2016 <a href="">Bent</a> <span>By </span><a href="http://designscrazed.org/">Designscrazed</a></p>
+                    </div>
+                    <div class="copy_right_text" style="width:100%">
+                    <!-- COPYRIGHT TEXT -->
+                        <p>Developed by 손정기 JWH PJH YHJ</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER -->
+    
+    
+<!-- =========================
+     Map Script 
+============================== -->    
+    <script type="text/javascript" src="//apis.daum.net/maps/maps3.js?apikey=699da0cadc95ef6d1f9eeb5118dc01fb"></script>
+
+        <script>
+        
+        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+            mapOption = { 
+                center: new daum.maps.LatLng( 37.629261240374944, 127.07848397463181 ), // 지도의 중심좌표
+                level: 2 // 지도의 확대 레벨
+            };
+        
+        var map = new daum.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+        
+                
+            function setCenter() {            
+                // 이동할 위도 경도 위치를 생성합니다 
+                var moveLatLon = new daum.maps.LatLng(37.63206866899052, 127.0771840986153);
+                
+                // 지도 중심을 이동 시킵니다
+                map.setCenter(moveLatLon);
+            }
+            
+            function panTo() {
+                // 이동할 위도 경도 위치를 생성합니다 
+                var moveLatLon = new daum.maps.LatLng(37.629261240374944, 127.07848397463181);
+                
+                // 지도 중심을 부드럽게 이동시킵니다
+                // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
+                map.panTo(moveLatLon);            
+            }        
+        
+            // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
+            var mapTypeControl = new daum.maps.MapTypeControl();
+            
+            // 지도에 컨트롤을 추가해야 지도위에 표시됩니다
+            // daum.maps.ControlPosition은 컨트롤이 표시될 위치를 정의하는데 TOPRIGHT는 오른쪽 위를 의미합니다
+            map.addControl(mapTypeControl, daum.maps.ControlPosition.TOPRIGHT);
+            
+            // 지도 확장 축소를 제어할 수 있는  줌 컨트롤을 생성합니다
+            var zoomControl = new daum.maps.ZoomControl();
+            map.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
+            
+            // 지도에 교통정보를 표시하도록 지도타입을 추가합니다
+            map.addOverlayMapTypeId(daum.maps.MapTypeId.TRAFFIC);    
+            
+            // 아래 코드는 위에서 추가한 교통정보 지도타입을 제거합니다
+            // map.removeOverlayMapTypeId(daum.maps.MapTypeId.TRAFFIC);    
+            
+            // 지도에 로드뷰 정보가 있는 도로를 표시하도록 지도타입을 추가합니다
+            //map.addOverlayMapTypeId(daum.maps.MapTypeId.ROADVIEW);    
+            
+            // 아래 코드는 위에서 추가한 로드뷰 도로 정보 지도타입을 제거합니다
+            map.removeOverlayMapTypeId(daum.maps.MapTypeId.ROADVIEW);    
+            
+            
+      
+           
+           
+        </script>
+        
+        <script>
+                    
+          var loading = function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.target.classList.add('loading');
+            e.target.setAttribute('disabled','disabled');
+            setTimeout(function(){
+              e.target.classList.remove('loading');
+              e.target.removeAttribute('disabled');
+            },1500);
+          };
+          
+          var btns = document.querySelectorAll('button');
+          for (var i=btns.length-1;i>=0;i--) {
+            btns[i].addEventListener('click',loading);
+          }
+
+        </script>
+        
+        <script>
+	  (function() {
+
+	$('#live-chat header').on('click', function() {
+
+		$('.chat').slideToggle(300, 'swing');
+		$('.chat-message-counter').fadeToggle(300, 'swing');
+
+	});
+
+	$('.chat-close').on('click', function(e) {
+
+		e.preventDefault();
+		$('#live-chat').fadeOut(300);
+
+	});
+
+}) ();
+	</script>
+	
